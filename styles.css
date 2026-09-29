@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding-left: 5px;
+}
+
+h3 {
+    font-size: 16px;
+    color: rgba(241, 201, 112, 0.863);
+    text-transform: uppercase;
+}
+dl,
+dd {
+  font-size: 0.9rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+dl {
+    margin-bottom: 2em
+}
+
+dt::after {
+  content: " : ";
+}
